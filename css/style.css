@@ -18,7 +18,7 @@
 body {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 /* Header styles */
@@ -36,36 +36,33 @@ navbar-img, navbar-logo {
 }
 
 .navbar-content {
-  height: calc(100% - 74px);
+  height: calc(100% - 74px);  
 }
 
-/* Styles inside the main */
+/* Main Styles */
 main {
   width: calc(100% - 185px);
   display: flex;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap;  
 }
 
-/* First one textarea style */
+/* Textarea style */
 .text-and-buttons {
   display: flex;
   flex-wrap: wrap;
   width: 60%;
   height: 96%;
-  margin-top: -2%;
-  /*margin: auto;*/
-  padding-top: 90px;
+  margin: auto;
+  padding-top: 10px;
 }
 
-.textToEncrypt {/*this can modify rectangle where you can write*/
+.textToEncrypt {/* modify the rectangle where you can write*/
   display: flex;
-  width: 95%;
-  margin-bottom: 10%;
-  /*margin: auto;*/
-  border: #bbb;
-  border: solid;
-  height: calc(100% - 180px);
+  width: 95%;  
+  margin: auto;  
+  border: 4px solid rgb(19, 58, 165);
+  border-radius: 10px;
+  height: calc(100% - 200px);
 }
 
 .textToProcessed {
@@ -73,7 +70,7 @@ main {
   flex-wrap: wrap;
   height: 100%;
   width: 90%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   padding: 19px;
   border: solid 1px var(--transparent);
@@ -103,14 +100,18 @@ main {
   margin: auto;
   max-height: 30%;
   min-height: 150px;
-  margin-top: -100px;
+  padding-bottom: 90px;
+  /* Aca estoy....... */
 }
 
 .menssageToUser{/*alert message*/
-  width: 90%;
+  width: 90%;  
   height: auto;
   margin: auto;
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
 }
 
 .exclamationMark{
@@ -138,12 +139,12 @@ main {
   color: var(--bgColor);
 }
 
-/* Second one textarea style */
+/* Second textarea style */
 .processedText {
   display: flex;
   margin: auto;
   width: 30%;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   border-radius: 25px;
   background-color: rgb(255, 255, 255);
   min-height: 800px;
@@ -156,7 +157,7 @@ main {
 .noContentGreat {/*this contain the img and text*/
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 150%;
   max-height: 100%;
   min-height: 800px;
   margin: auto;
@@ -165,26 +166,26 @@ main {
 }
 
 .noCntent-div-img {
-  width: 180%;   
+  width: 100%;
   margin: auto auto 0 auto;
   object-fit: cover;
   background-color: rgb(255, 255, 255);
 }
 
 .noCntent-img {
-  margin: auto;
   width: 100%;
+  margin: auto;  
   background-color: rgb(255, 255, 255);
 }
 
 .noContent-div-text {
-  margin: auto;
-  margin-top: -10px;
+  width: 100%;
+  margin: 0 auto auto auto;    
   background-color: rgb(255, 255, 255);
   text-align: center;
 }
 
-.noContent-h2 {
+.noContent-h2 {  
   margin: auto;
   text-align: center;
   background-color: rgb(255, 255, 255);
@@ -194,7 +195,7 @@ main {
   margin: auto;
   text-align: center;
   background-color: rgb(255, 255, 255);
-  margin-top: 30px;
+  padding-top: 15px;
 }
 
 .yesContent{
