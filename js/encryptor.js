@@ -48,12 +48,14 @@ const decryptContent = () => {
 
 }
 
+
 const encrypt = (value) => {
+    
     const textArea = document.querySelector(`.processedText-textarea`);
 
 
-    let Encriptador = [/e/gi, /i/gi, /a/gi, /o/gi, /u/gi];
-    let palabrasClave = ["enter", "imes", "ai", "ober", "ufat"];
+    let Encriptador = [/e/gi, /i/gi, /a/gi, /o/gi, /u/gi, /b/gi, /c/gi, /d/gi, /f/gi, /g/gi, /h/gi, /j/gi, /k/gi, /l/gi, /m/gi, /n/gi, /p/gi, /q/gi, /r/gi, /s/gi, /t/gi, /v/gi, /w/gi, /x/gi, /y/gi, /z/gi];
+    let palabrasClave = ["enter", "imes", "ai", "ober", "ufat", "fly", "down", "up", "liv", "look", "spy", "chemistry", "non", "looser", "air", "fire", "xmen", "superman", "bionic", "lunatic", "perfect", "grace", "grease", "beach", "sky", "sea"];
     let newstr = value;
     for (let i = 0; i < palabrasClave.length; i++) {
         newstr = newstr.replace(Encriptador[i], palabrasClave[i]);
